@@ -1,7 +1,26 @@
 body {
     background-image: url("../images/denver.jpeg");
     background-size: cover;  
-    color: purple;    
+    color: black;  
+    font-size: 14pt;  
     font-weight: bold;
     text-align: center;
 }
+
+h1 {
+    padding-top: 25px;
+    font-size: 25pt;
+}
+
+input[type="radio"] {
+    margin: 0 10px 0 10px;
+}
+
+p {
+    line-height: 300%;
+}
+
+.question,
+    p {  
+    color: indigo;
+    }

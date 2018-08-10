@@ -38,8 +38,8 @@ $(document).ready(function () {
         var question3 = $("input[name='question3']:checked").val() === "b";
         var question4 = $("input[name='question4']:checked").val() === "c";
         var question5 = $("input[name='question5']:checked").val() === "a";
-
-
+      
+        
         if (question1) {
             correct++
         }
